@@ -49,10 +49,14 @@ def getImage(search_item, img_list, dir="./"):
             continue
 
 # do the search
-TARGET = "西野七瀬"
-MAX_ITEMS = 5
-DIR = "./images/"
+def main():
+    search_items = ["生田絵梨花", "齋藤飛鳥", "白石麻衣", "西野七瀬", "橋本奈々未"]
+    MAX_ITEMS = 100
+    DIR = "./images/"
+    for i in search_items:
+        img_list = getImageUrl(i, MAX_ITEMS)
+        print(img_list)
+        getImage(i, img_list, DIR)  
+
 if __name__ == "__main__":
-    img_list = getImageUrl(TARGET, MAX_ITEMS)
-    print(img_list)
-    getImage(TARGET, img_list, DIR)
+    main()
