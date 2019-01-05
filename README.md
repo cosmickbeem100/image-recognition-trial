@@ -16,6 +16,13 @@ I refer to following about how to check version of relevent softwares.
   * [Pythonのバージョンを確認、表示（sys.versionなど）](https://note.nkmk.me/python-sys-platform-version-info/)
   * [pythonでopencvのバージョンを確認する方法](https://qiita.com/PeaceAndHiLight/items/8372c5719ca73aa11d46)
 
-The following link are referred for getting images through google custom search API.
+The following links are referred for getting images through google custom search API.
   * [Google の「Custom Search API」と「カスタム検索エンジン」で画像をダウンロードする](https://qiita.com/kaotil/items/9a12b16f95a1b2c7f953)
   * [Google Custom Search APIを使って画像収集](https://qiita.com/onlyzs/items/c56fb76ce43e45c12339)
+
+The following link is referred for image recognition.
+  * [python+OpenCVで顔認識をやってみる](https://qiita.com/wwacky/items/98d8be2844fa1b778323)
+  * [Python版OpenCVで顔検出（Haar Cascade）](https://algorithm.joho.info/programming/python/opencv-haar-cascade-face-detection-py/)
+  * [Pythonで画像認識① 顔認識](http://sh0122.hatenadiary.jp/entry/2017/10/30/210411)
+  
+  
